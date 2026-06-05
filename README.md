@@ -67,7 +67,7 @@ Main file:
 ## Demo Video
 
 YouTube demo video:  
-VIDEO_LINK_HERE
+[VIDEO_LINK_HERE](https://www.youtube.com/watch?v=IEO0kEXnux0)
 
 ## Running the Backend
 
