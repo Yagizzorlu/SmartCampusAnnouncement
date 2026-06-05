@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SmartCampusAnnouncementDb/True/SqlTable/dbo.AppUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D148904A-874E-40D9-9945-7F9928F172B5}|SmartCampusAnnouncement.WebAPI\\SmartCampusAnnouncement.WebAPI.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.webapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D148904A-874E-40D9-9945-7F9928F172B5}|SmartCampusAnnouncement.WebAPI\\SmartCampusAnnouncement.WebAPI.csproj|solutionrelative:smartcampusannouncement.webapi\\middlewares\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D148904A-874E-40D9-9945-7F9928F172B5}|SmartCampusAnnouncement.WebAPI\\SmartCampusAnnouncement.WebAPI.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D148904A-874E-40D9-9945-7F9928F172B5}|SmartCampusAnnouncement.WebAPI\\SmartCampusAnnouncement.WebAPI.csproj|solutionrelative:smartcampusannouncement.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D148904A-874E-40D9-9945-7F9928F172B5}|SmartCampusAnnouncement.WebAPI\\SmartCampusAnnouncement.WebAPI.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.webapi\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D148904A-874E-40D9-9945-7F9928F172B5}|SmartCampusAnnouncement.WebAPI\\SmartCampusAnnouncement.WebAPI.csproj|solutionrelative:smartcampusannouncement.webapi\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D148904A-874E-40D9-9945-7F9928F172B5}|SmartCampusAnnouncement.WebAPI\\SmartCampusAnnouncement.WebAPI.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.webapi\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D148904A-874E-40D9-9945-7F9928F172B5}|SmartCampusAnnouncement.WebAPI\\SmartCampusAnnouncement.WebAPI.csproj|solutionrelative:smartcampusannouncement.webapi\\controllers\\announcementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.infrastructure\\persistence\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|solutionrelative:smartcampusannouncement.infrastructure\\persistence\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.infrastructure\\persistence\\configurations\\announcementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|solutionrelative:smartcampusannouncement.infrastructure\\persistence\\configurations\\announcementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.infrastructure\\persistence\\repositories\\announcementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|solutionrelative:smartcampusannouncement.infrastructure\\persistence\\repositories\\announcementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|solutionrelative:smartcampusannouncement.infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\services\\notificationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\services\\notificationlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|solutionrelative:smartcampusannouncement.infrastructure\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.infrastructure\\logging\\applogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9396C166-0FF7-1123-70A9-BC85D60FF2DE}|SmartCampusAnnouncement.Infrastructure\\SmartCampusAnnouncement.Infrastructure.csproj|solutionrelative:smartcampusannouncement.infrastructure\\logging\\applogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\announcements\\examannouncement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\announcements\\examannouncement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\abstractions\\factories\\iannouncementnotificationmodelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\abstractions\\factories\\iannouncementnotificationmodelfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\abstractions\\factories\\iannouncementfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\abstractions\\factories\\iannouncementfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\abstractions\\observers\\iannouncementobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\abstractions\\observers\\iannouncementobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\publishers\\announcementpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\publishers\\announcementpublisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\observers\\announcementobserverbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\observers\\announcementobserverbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|c:\\users\\ya\u011F\u0131z\\desktop\\smartcampusannouncementbackend\\smartcampusannouncement.application\\observers\\studentannouncementobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAD0F32D-FA1D-21F0-11B7-164F228D3CED}|SmartCampusAnnouncement.Application\\SmartCampusAnnouncement.Application.csproj|solutionrelative:smartcampusannouncement.application\\observers\\studentannouncementobserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.AppUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SmartCampusAnnouncementDb/True/SqlTable/dbo.AppUsers.sql",
+              "ToolTip": "dbo.AppUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-06-05T18:30:20.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.WebAPI\\Middlewares\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:23:27.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.WebAPI\\Program.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:23:14.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.WebAPI\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.WebAPI\\Controllers\\DemoController.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.WebAPI\\Controllers\\DemoController.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.WebAPI\\Controllers\\DemoController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:22:56.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnnouncementsController.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.WebAPI\\Controllers\\AnnouncementsController.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.WebAPI\\Controllers\\AnnouncementsController.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.WebAPI\\Controllers\\AnnouncementsController.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.WebAPI\\Controllers\\AnnouncementsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:22:45.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Persistence\\Configurations\\AppUserConfiguration.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Infrastructure\\Persistence\\Configurations\\AppUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Persistence\\Configurations\\AppUserConfiguration.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Infrastructure\\Persistence\\Configurations\\AppUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:22:23.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AnnouncementConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Persistence\\Configurations\\AnnouncementConfiguration.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Infrastructure\\Persistence\\Configurations\\AnnouncementConfiguration.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Persistence\\Configurations\\AnnouncementConfiguration.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Infrastructure\\Persistence\\Configurations\\AnnouncementConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:22:21.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AnnouncementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Persistence\\Repositories\\AnnouncementRepository.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Infrastructure\\Persistence\\Repositories\\AnnouncementRepository.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Persistence\\Repositories\\AnnouncementRepository.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Infrastructure\\Persistence\\Repositories\\AnnouncementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:22:17.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Persistence\\AppDbContext.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Infrastructure\\Persistence\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:22:14.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationLogService.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Services\\NotificationLogService.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Services\\NotificationLogService.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Services\\NotificationLogService.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Services\\NotificationLogService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:21:55.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AnnouncementService.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Services\\AnnouncementService.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Services\\AnnouncementService.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Services\\AnnouncementService.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Services\\AnnouncementService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:21:35.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Services\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:21:18.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Infrastructure\\ServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\ServiceRegistration.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Infrastructure\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:20:45.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppLogger.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Logging\\AppLogger.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Infrastructure\\Logging\\AppLogger.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Infrastructure\\Logging\\AppLogger.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Infrastructure\\Logging\\AppLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:20:27.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExamAnnouncement.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Announcements\\ExamAnnouncement.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Announcements\\ExamAnnouncement.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Announcements\\ExamAnnouncement.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Announcements\\ExamAnnouncement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:19:20.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAnnouncementNotificationModelFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Abstractions\\Factories\\IAnnouncementNotificationModelFactory.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Abstractions\\Factories\\IAnnouncementNotificationModelFactory.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Abstractions\\Factories\\IAnnouncementNotificationModelFactory.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Abstractions\\Factories\\IAnnouncementNotificationModelFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:18:43.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAnnouncementFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Abstractions\\Factories\\IAnnouncementFactory.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Abstractions\\Factories\\IAnnouncementFactory.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Abstractions\\Factories\\IAnnouncementFactory.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Abstractions\\Factories\\IAnnouncementFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:18:13.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AnnouncementPublisher.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Publishers\\AnnouncementPublisher.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Publishers\\AnnouncementPublisher.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Publishers\\AnnouncementPublisher.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Publishers\\AnnouncementPublisher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:17:43.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AnnouncementObserverBase.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Observers\\AnnouncementObserverBase.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Observers\\AnnouncementObserverBase.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Observers\\AnnouncementObserverBase.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Observers\\AnnouncementObserverBase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:17:03.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "StudentAnnouncementObserver.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Observers\\StudentAnnouncementObserver.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Observers\\StudentAnnouncementObserver.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Observers\\StudentAnnouncementObserver.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Observers\\StudentAnnouncementObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:16:47.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAnnouncementObserver.cs",
+              "DocumentMoniker": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Abstractions\\Observers\\IAnnouncementObserver.cs",
+              "RelativeDocumentMoniker": "SmartCampusAnnouncement.Application\\Abstractions\\Observers\\IAnnouncementObserver.cs",
+              "ToolTip": "C:\\Users\\Ya\u011F\u0131z\\Desktop\\SmartCampusAnnouncementBackend\\SmartCampusAnnouncement.Application\\Abstractions\\Observers\\IAnnouncementObserver.cs",
+              "RelativeToolTip": "SmartCampusAnnouncement.Application\\Abstractions\\Observers\\IAnnouncementObserver.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T18:16:33.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

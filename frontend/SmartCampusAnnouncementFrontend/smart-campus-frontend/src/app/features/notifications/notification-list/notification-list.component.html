@@ -1,0 +1,105 @@
+<div class="space-y-6">
+  <div>
+    <h2 class="text-lg font-mono font-semibold text-[#f1f5f9]">Bildirim Teslim Kanıtı</h2>
+    <p class="text-xs text-[#94a3b8] mt-1 leading-relaxed">Observer tarafından tetiklenen bildirim teslim kayıtları. Gözlemciler tarafından oluşturulan her bildirim denemesi NotificationLog olarak kaydedilir.</p>
+  </div>
+
+  <div class="bg-blue-500/10 border border-blue-500/30 rounded p-4">
+    <p class="text-xs text-blue-400 font-mono">
+      <span class="font-semibold uppercase tracking-widest">Veritabanı Notu:</span> Loglar EF Core üzerinden SQL Server'a kaydedilir ve şu uç noktadan getirilir: <span class="text-[#f1f5f9]">GET /api/notification-logs</span>.
+    </p>
+  </div>
+
+  <!-- Özet Kartlar -->
+  @if (summary(); as s) {
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-[#1e293b] border border-[#334155] rounded p-4">
+        <p class="text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest mb-1">Toplam</p>
+        <p class="text-2xl font-mono font-semibold text-[#f1f5f9]">{{ s.totalLogs }}</p>
+      </div>
+      <div class="bg-[#1e293b] border border-[#334155] rounded p-4">
+        <p class="text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest mb-1">Gönderildi</p>
+        <p class="text-2xl font-mono font-semibold text-green-400">{{ s.totalSent }}</p>
+      </div>
+      <div class="bg-[#1e293b] border border-[#334155] rounded p-4">
+        <p class="text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest mb-1">Başarısız</p>
+        <p class="text-2xl font-mono font-semibold text-red-400">{{ s.totalFailed }}</p>
+      </div>
+      <div class="bg-[#1e293b] border border-blue-500/30 rounded p-4 shadow-[inset_0_0_20px_rgba(59,130,246,0.05)]">
+        <p class="text-[10px] font-mono text-blue-400 uppercase tracking-widest mb-1">Başarı Oranı</p>
+        <p class="text-2xl font-mono font-semibold text-blue-400">{{ successRate | number:'1.0-0' }}%</p>
+      </div>
+    </div>
+
+    <!-- byChannel Distribution -->
+    <div class="bg-[#1e293b] border border-[#334155] rounded p-5">
+      <p class="text-xs font-mono font-semibold text-[#f1f5f9] uppercase tracking-widest mb-4">Kanallara Göre Dağılım</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
+        @for (entry of s.byChannel | keyvalue; track entry.key) {
+          <div class="flex items-center gap-3">
+            <span class="text-xs font-mono text-[#94a3b8] w-24 shrink-0">{{ entry.key }}</span>
+            <div class="flex-1 h-2 bg-[#334155] rounded-full overflow-hidden">
+              <div class="h-full rounded-full"
+                   [class.bg-blue-400]="entry.key === 'Email'"
+                   [class.bg-amber-400]="entry.key === 'Sms'"
+                   [class.bg-purple-400]="entry.key === 'Push'"
+                   [class.bg-[#3b82f6]]="entry.key !== 'Email' && entry.key !== 'Sms' && entry.key !== 'Push'"
+                   [style.width.%]="s.totalLogs > 0 ? (+entry.value / s.totalLogs) * 100 : 0">
+              </div>
+            </div>
+            <span class="text-xs font-mono text-[#f1f5f9] w-6 text-right">{{ entry.value }}</span>
+          </div>
+        }
+      </div>
+    </div>
+  }
+
+  <!-- Log Tablosu -->
+  <div class="bg-[#1e293b] border border-[#334155] rounded overflow-hidden">
+    @if (logs().length > 0) {
+      <div class="overflow-x-auto">
+        <table class="w-full min-w-[700px]">
+          <thead>
+            <tr class="border-b border-[#334155]">
+              <th class="px-4 py-3 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">Alıcı</th>
+              <th class="px-4 py-3 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">Duyuru Tipi</th>
+              <th class="px-4 py-3 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">Duyuru</th>
+              <th class="px-4 py-3 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">Kanal</th>
+              <th class="px-4 py-3 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">Durum</th>
+              <th class="px-4 py-3 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">Tarih</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-[#334155]">
+            @for (log of logs(); track log.id) {
+              <tr class="hover:bg-[#334155]/30 transition-colors">
+                <td class="px-4 py-3">
+                  <p class="text-sm text-[#f1f5f9]">{{ log.recipientFullName }}</p>
+                  <p class="text-[10px] text-[#94a3b8] font-mono">{{ log.recipientUserType | enumLabel:'userType' }}</p>
+                </td>
+                <td class="px-4 py-3 text-xs font-mono text-[#94a3b8]">
+                  {{ log.announcementType | enumLabel:'announcementType' }}
+                </td>
+                <td class="px-4 py-3 text-xs text-[#94a3b8] max-w-[180px] truncate">
+                  {{ log.announcementTitle }}
+                </td>
+                <td class="px-4 py-3">
+                  <span class="px-1.5 py-0.5 rounded border text-[10px] font-mono" [ngClass]="getChannelClass(log.notificationType)">
+                    {{ log.notificationType | enumLabel:'notificationType' }}
+                  </span>
+                </td>
+                <td class="px-4 py-3">
+                  <app-status-badge type="notif-status" [value]="log.status" />
+                </td>
+                <td class="px-4 py-3 text-xs font-mono text-[#94a3b8]">
+                  {{ log.sentAt | date:'dd.MM.yyyy HH:mm' }}
+                </td>
+              </tr>
+            }
+          </tbody>
+        </table>
+      </div>
+    } @else {
+      <app-empty-state icon="◎" message="Henüz bildirim logu yok. Demo senaryosunu çalıştırarak Observer ve NotificationFactory akışını tetikleyebilirsiniz." />
+    }
+  </div>
+</div>

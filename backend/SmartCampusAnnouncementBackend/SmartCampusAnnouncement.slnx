@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SmartCampusAnnouncement.Application/SmartCampusAnnouncement.Application.csproj" />
+  <Project Path="SmartCampusAnnouncement.Domain/SmartCampusAnnouncement.Domain.csproj" />
+  <Project Path="SmartCampusAnnouncement.Infrastructure/SmartCampusAnnouncement.Infrastructure.csproj" />
+  <Project Path="SmartCampusAnnouncement.WebAPI/SmartCampusAnnouncement.WebAPI.csproj" Id="d148904a-874e-40d9-9945-7f9928f172b5" />
+</Solution>

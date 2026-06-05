@@ -1,0 +1,195 @@
+<div class="space-y-6">
+  <div class="flex items-start justify-between">
+    <div>
+      <h2 class="text-lg font-mono font-semibold text-[#f1f5f9]">Demo Senaryo</h2>
+      <p class="text-xs text-[#94a3b8] mt-1">Tüm duyuru yayınlama senaryosunu çalıştırır ve tasarım deseni akışını görselleştirir.</p>
+    </div>
+    <button (click)="run()" [disabled]="running()"
+      class="shrink-0 px-6 py-2.5 bg-[#3b82f6] text-white text-sm font-mono rounded hover:bg-[#2563eb] disabled:opacity-50 disabled:cursor-not-allowed transition-colors flex items-center gap-2 shadow-lg shadow-blue-500/20">
+      @if (running()) {
+        <span class="w-3 h-3 border border-white border-t-transparent rounded-full animate-spin"></span>
+        Çalışıyor...
+      } @else {
+        ▶ Senaryoyu Çalıştır
+      }
+    </button>
+  </div>
+
+  <!-- Pattern Execution Flow -->
+  <div class="bg-[#1e293b] border border-[#334155] rounded p-5">
+    <p class="text-sm font-mono text-[#f1f5f9] mb-4">Tasarım Deseni Yürütme Akışı</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+      <!-- Step 1 -->
+      <div class="p-3 rounded border transition-colors bg-[#0f172a]"
+           [class.border-green-500]="result()" [class.border-[#334155]]="!result()">
+        <p class="text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest mb-1">Adım 1</p>
+        <p class="text-xs text-[#f1f5f9]">Admin duyuru oluşturur</p>
+      </div>
+      <!-- Step 2 -->
+      <div class="p-3 rounded border transition-colors bg-[#0f172a]"
+           [class.border-blue-500]="result()" [class.border-[#334155]]="!result()">
+        <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-blue-500/10 border border-blue-500/30 text-blue-400 mb-1 inline-block">FACTORY</span>
+        <p class="text-xs text-[#f1f5f9]">Duyuru modelini oluşturur</p>
+      </div>
+      <!-- Step 3 -->
+      <div class="p-3 rounded border transition-colors bg-[#0f172a]"
+           [class.border-purple-500]="result()" [class.border-[#334155]]="!result()">
+        <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-purple-500/10 border border-purple-500/30 text-purple-400 mb-1 inline-block">OBSERVER</span>
+        <p class="text-xs text-[#f1f5f9]">Publisher gözlemcilere bildirir</p>
+      </div>
+      <!-- Step 4 -->
+      <div class="p-3 rounded border transition-colors bg-[#0f172a]"
+           [class.border-purple-500]="result()" [class.border-[#334155]]="!result()">
+        <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-purple-500/10 border border-purple-500/30 text-purple-400 mb-1 inline-block">OBSERVER</span>
+        <p class="text-xs text-[#f1f5f9]">Gözlemciler aboneleri işler</p>
+      </div>
+      <!-- Step 5 -->
+      <div class="p-3 rounded border transition-colors bg-[#0f172a]"
+           [class.border-blue-500]="result()" [class.border-[#334155]]="!result()">
+        <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-blue-500/10 border border-blue-500/30 text-blue-400 mb-1 inline-block">FACTORY</span>
+        <p class="text-xs text-[#f1f5f9]">Bildirim kanalını seçer</p>
+      </div>
+      <!-- Step 6 -->
+      <div class="p-3 rounded border transition-colors bg-[#0f172a]"
+           [class.border-orange-500]="result()" [class.border-[#334155]]="!result()">
+        <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-orange-500/10 border border-orange-500/30 text-orange-400 mb-1 inline-block">SINGLETON</span>
+        <p class="text-xs text-[#f1f5f9]">Logger çıktıyı yazar</p>
+      </div>
+      <!-- Step 7 -->
+      <div class="p-3 rounded border transition-colors bg-[#0f172a] lg:col-span-2"
+           [class.border-green-500]="result()" [class.border-[#334155]]="!result()">
+        <span class="text-[9px] font-mono px-1.5 py-0.5 rounded bg-green-500/10 border border-green-500/30 text-green-400 mb-1 inline-block">PERSISTENCE</span>
+        <p class="text-xs text-[#f1f5f9]">NotificationLog veritabanına kaydedilir</p>
+      </div>
+    </div>
+  </div>
+
+  @if (error()) {
+    <div class="bg-red-400/10 border border-red-400/30 text-red-400 text-xs font-mono px-4 py-3 rounded">
+      {{ error() }}
+    </div>
+  }
+
+  @if (result(); as r) {
+    <!-- Success Panel -->
+    <div class="bg-green-500/10 border border-green-500/30 rounded p-5 flex items-start gap-4">
+      <div class="mt-0.5">
+        <span class="flex items-center justify-center w-5 h-5 rounded-full bg-green-500/20 text-green-400 text-xs font-bold">✓</span>
+      </div>
+      <div>
+        <h3 class="text-sm font-mono font-semibold text-green-400">Senaryo başarıyla tamamlandı</h3>
+        <p class="text-xs text-green-400/80 mt-1">Duyuru oluşturuldu, yayınlandı, kullanıcı tipindeki gözlemciler tarafından işlendi, bildirim kanallarıyla iletildi ve log olarak kaydedildi.</p>
+      </div>
+    </div>
+
+    <!-- Terminal Reference -->
+    <div class="bg-[#1e293b] border-l-4 border-l-orange-500 border-y border-r border-y-[#334155] border-r-[#334155] rounded-r p-4">
+      <p class="text-xs text-[#94a3b8] font-mono leading-relaxed">
+        <span class="text-orange-400 font-semibold uppercase tracking-widest">Terminal Notu:</span> Backend terminalinde [Observer], [EMAIL], [SMS], [PUSH] loglarını görebilirsiniz. Bu çıktılar <span class="text-[#f1f5f9]">Infrastructure/Logging/AppLogger</span> singleton instance'ı üzerinden yazılır.
+      </p>
+    </div>
+
+    <!-- Tasarım Desenleri -->
+    <div class="bg-[#1e293b] border border-[#334155] rounded overflow-hidden">
+      <div class="px-4 py-3 border-b border-[#334155] bg-[#334155]/20">
+        <h3 class="text-xs font-mono font-semibold text-[#3b82f6] uppercase tracking-widest">Kullanılan Tasarım Desenleri</h3>
+      </div>
+      <div class="p-4 space-y-4">
+        <div class="flex gap-3 items-start">
+          <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-500/10 border border-blue-500/30 text-blue-400 shrink-0 mt-0.5">FACTORY</span>
+          <p class="text-xs font-mono text-[#94a3b8] leading-relaxed"><span class="text-[#f1f5f9]">AnnouncementFactory</span>, <span class="text-[#f1f5f9]">AnnouncementNotificationModelFactory</span> ve <span class="text-[#f1f5f9]">NotificationChannelFactory</span> uygun duyuru modelini ve bildirim kanalını oluşturur.</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-purple-500/10 border border-purple-500/30 text-purple-400 shrink-0 mt-0.5">OBSERVER</span>
+          <p class="text-xs font-mono text-[#94a3b8] leading-relaxed"><span class="text-[#f1f5f9]">AnnouncementPublisher</span>, TargetAudience hedefine göre <span class="text-[#f1f5f9]">StudentAnnouncementObserver</span> ve <span class="text-[#f1f5f9]">TeacherAnnouncementObserver</span> sınıfına bildirim gönderir.</p>
+        </div>
+        <div class="flex gap-3 items-start">
+          <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-orange-500/10 border border-orange-500/30 text-orange-400 shrink-0 mt-0.5">SINGLETON</span>
+          <p class="text-xs font-mono text-[#94a3b8] leading-relaxed"><span class="text-[#f1f5f9]">AppLogger.Instance</span> tüm uygulama için paylaşılan tek bir log akışına yazar.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Yayın Sonucu -->
+    <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="bg-[#1e293b] border border-[#334155] rounded p-4">
+        <p class="text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest mb-1">Toplam Alıcı</p>
+        <p class="text-2xl font-mono text-[#f1f5f9]">{{ r.publishResult.totalRecipients }}</p>
+      </div>
+      <div class="bg-[#1e293b] border border-[#334155] rounded p-4">
+        <p class="text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest mb-1">Gönderildi</p>
+        <p class="text-2xl font-mono text-green-400">{{ r.publishResult.sentCount }}</p>
+      </div>
+      <div class="bg-[#1e293b] border border-[#334155] rounded p-4">
+        <p class="text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest mb-1">Başarısız</p>
+        <p class="text-2xl font-mono text-red-400">{{ r.publishResult.failedCount }}</p>
+      </div>
+      <div class="bg-[#1e293b] border border-[#334155] rounded p-4">
+        <p class="text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest mb-1">Yayın Saati</p>
+        <p class="text-sm font-mono text-[#f1f5f9]">{{ r.publishResult.publishedAt | date:'HH:mm:ss' }}</p>
+      </div>
+    </div>
+
+    <!-- Oluşturulan Kullanıcılar -->
+    <div class="bg-[#1e293b] border border-[#334155] rounded overflow-hidden">
+      <div class="px-4 py-3 border-b border-[#334155]">
+        <h3 class="text-xs font-mono font-semibold text-[#f1f5f9] uppercase tracking-widest">Oluşturulan Kullanıcılar</h3>
+      </div>
+      <table class="w-full">
+        <thead>
+          <tr class="border-b border-[#334155]">
+            <th class="px-4 py-2.5 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">Ad</th>
+            <th class="px-4 py-2.5 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">E-posta</th>
+            <th class="px-4 py-2.5 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">Tip</th>
+            <th class="px-4 py-2.5 text-left text-[10px] font-mono text-[#94a3b8] uppercase tracking-widest">Kanallar</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-[#334155]">
+          @for (u of r.usersCreated; track u.id) {
+            <tr>
+              <td class="px-4 py-2.5 text-sm text-[#f1f5f9]">{{ u.fullName }}</td>
+              <td class="px-4 py-2.5 text-xs font-mono text-[#94a3b8]">{{ u.email }}</td>
+              <td class="px-4 py-2.5 text-xs font-mono text-[#94a3b8]">{{ u.userType | enumLabel:'userType' }}</td>
+              <td class="px-4 py-2.5">
+                <div class="flex gap-1 flex-wrap">
+                  @for (nt of u.notificationTypes; track nt) {
+                    <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[#0f172a] border border-[#334155] text-[#94a3b8]">
+                      {{ nt | enumLabel:'notificationType' }}
+                    </span>
+                  }
+                </div>
+              </td>
+            </tr>
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Bildirim Logları -->
+    <div class="bg-[#1e293b] border border-[#334155] rounded overflow-hidden">
+      <div class="px-4 py-3 border-b border-[#334155]">
+        <h3 class="text-xs font-mono font-semibold text-[#f1f5f9] uppercase tracking-widest">
+          Oluşturulan Bildirim Logları ({{ r.notificationLogs.length }})
+        </h3>
+      </div>
+      <div class="divide-y divide-[#334155]">
+        @for (log of r.notificationLogs; track log.id) {
+          <div class="px-4 py-3 flex items-start justify-between gap-3">
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-1">
+                <span class="text-xs font-mono text-[#f1f5f9]">{{ log.recipientFullName }}</span>
+                <span class="text-[10px] text-[#475569]">·</span>
+                <!-- inline badge styling for channels will be done in another task, for now use standard -->
+                <span class="text-[10px] font-mono text-[#94a3b8] px-1.5 py-0.5 rounded border border-[#334155] bg-[#0f172a]">
+                  {{ log.notificationType | enumLabel:'notificationType' }}
+                </span>
+              </div>
+              <p class="text-xs text-[#94a3b8] font-mono break-all">{{ log.message }}</p>
+            </div>
+            <app-status-badge type="notif-status" [value]="log.status" />
+          </div>
+        }
+      </div>
+    </div>
+  }
+</div>

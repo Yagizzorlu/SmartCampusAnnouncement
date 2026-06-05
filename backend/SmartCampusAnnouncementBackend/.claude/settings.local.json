@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build:*)",
+      "Bash(dotnet add:*)",
+      "Bash(dotnet ef:*)",
+      "Bash(dotnet tool:*)",
+      "Bash(BASE=\"http://localhost:5238\")",
+      "Bash(__NEW_LINE_f942204709f372f8__ echo:*)",
+      "Bash(curl -s -X POST \"$BASE/api/users\" -H \"Content-Type: application/json; charset=utf-8\" -d \"{\"\"fullName\"\":\"\"Sinem Cetiner\"\",\"\"email\"\":\"\"sinem@example.com\"\",\"\"phoneNumber\"\":\"\"5554445566\"\",\"\"userType\"\":2,\"\"notificationTypes\"\":[1,2]}\")",
+      "Bash(curl -s -X POST \"$BASE/api/announcements\" -H \"Content-Type: application/json; charset=utf-8\" -d \"{\"\"title\"\":\"\"Final Exam Date Updated\"\",\"\"content\"\":\"\"The software architecture final exam date has been updated.\"\",\"\"announcementType\"\":1,\"\"targetAudience\"\":3,\"\"priority\"\":4,\"\"expiresAt\"\":\"\"2026-12-31T23:59:59Z\"\",\"\"createdBy\"\":\"\"System Admin\"\"}\")",
+      "Bash(__NEW_LINE_3ece94ceb2d88c4f__ echo:*)",
+      "Bash(curl -s -X POST \"$BASE/api/announcements/1/publish\")",
+      "Bash(curl -s \"$BASE/api/notification-logs\")",
+      "Bash(kill %1)",
+      "Bash(taskkill /F /IM \"SmartCampusAnnouncement.WebAPI.exe\")",
+      "Bash(taskkill /F /PID 76936)",
+      "Bash(dotnet clean:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}
